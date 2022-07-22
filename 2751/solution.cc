@@ -15,8 +15,7 @@ void Swap(vector<int>::iterator a, vector<int>::iterator b) {
 }
 
 void Merge(vector<int>::iterator begin, vector<int>::iterator middle, vector<int>::iterator end) {
-    size_t size = end - begin;
-    int index = 0, min = 0;
+    int index = 0;
 
     queue<int> first_queue, second_queue;
 
